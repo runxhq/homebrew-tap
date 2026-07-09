@@ -30,7 +30,7 @@ class Runx < Formula
   end
 
   def install
-    bin.install "runx"
+    bin.install Dir["*/runx"].first => "runx"
   end
 
   test do
