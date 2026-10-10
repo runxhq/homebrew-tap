@@ -2,8 +2,8 @@
 # frozen_string_literal: true
 
 class Runx < Formula
-  desc "Native governed runtime for agent skills, tools, graphs, and packets."
-  homepage "https://github.com/runxhq/runx"
+  desc "Runx CLI - native governed runtime for agent skills, tools, graphs, and packets."
+  homepage "https://runx.ai"
   version "0.9.1"
   license "Apache-2.0"
 
