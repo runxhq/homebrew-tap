@@ -2,30 +2,30 @@
 # frozen_string_literal: true
 
 class Runx < Formula
-  desc "Runx CLI - native governed runtime for agent skills, tools, graphs, and packets."
-  homepage "https://runx.ai"
-  version "0.9.1"
+  desc "Native governed runtime for agent skills, tools, graphs, and packets."
+  homepage "https://github.com/runxhq/runx"
+  version "0.10.0"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/runxhq/runx/releases/download/cli-v0.9.1/runx-0.9.1-aarch64-apple-darwin.tar.gz"
-      sha256 "7106c89fa6f1808b5d48134de94a93fe64e7f3ccb47e603f1305a9ad12f0aec5"
+      url "https://github.com/runxhq/runx/releases/download/cli-v0.10.0/runx-0.10.0-aarch64-apple-darwin.tar.gz"
+      sha256 "76b73c86fc13fa9d777fd6d4cdc8a41138ced27db3099ee338f71e7308c0d024"
     end
     on_intel do
-      url "https://github.com/runxhq/runx/releases/download/cli-v0.9.1/runx-0.9.1-x86_64-apple-darwin.tar.gz"
-      sha256 "0976abcdde6932af9c8c6cd548c7e92763abae12378956de9b8c161b903c564c"
+      url "https://github.com/runxhq/runx/releases/download/cli-v0.10.0/runx-0.10.0-x86_64-apple-darwin.tar.gz"
+      sha256 "e7bb917a027e8735f25eda9bb0db387e736f400d9605afce47f4b9924de2f638"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/runxhq/runx/releases/download/cli-v0.9.1/runx-0.9.1-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "0181826afc39e49bca26fa7fd2d16c08d816ec94220c9553481d9c655eba705d"
+      url "https://github.com/runxhq/runx/releases/download/cli-v0.10.0/runx-0.10.0-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "a589e3ac285940100399bc17a66f03f0b91b6f9c440def71b82a407bf1ebc253"
     end
     on_intel do
-      url "https://github.com/runxhq/runx/releases/download/cli-v0.9.1/runx-0.9.1-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "59eee2af81d24d0f8ba2416e2bac55d147ed93693e6a41ffe7c2cfd5cba98cc7"
+      url "https://github.com/runxhq/runx/releases/download/cli-v0.10.0/runx-0.10.0-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "0812b23a9fac48b3788e09b973fc1f2ca346954ea8c8c8e90af3739350b92e08"
     end
   end
 
