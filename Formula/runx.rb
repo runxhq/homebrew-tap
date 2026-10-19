@@ -3,7 +3,7 @@
 
 class Runx < Formula
   desc "Native governed runtime for agent skills, tools, graphs, and packets."
-  homepage "https://github.com/runxhq/runx"
+  homepage "https://runx.ai"
   version "0.10.2"
   license "Apache-2.0"
 
