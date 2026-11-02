@@ -4,28 +4,28 @@
 class Runx < Formula
   desc "Native governed runtime for agent skills, tools, graphs, and packets."
   homepage "https://runx.ai"
-  version "0.11.0"
+  version "0.11.1"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/runxhq/runx/releases/download/cli-v0.11.0/runx-0.11.0-aarch64-apple-darwin.tar.gz"
-      sha256 "7306b3ec2fdce8700e58999447ff12d161e2479849297506bf44ee6042d72c06"
+      url "https://github.com/runxhq/runx/releases/download/cli-v0.11.1/runx-0.11.1-aarch64-apple-darwin.tar.gz"
+      sha256 "61003d94bce60948ac1d3d7d4cc4920123be2f09ee1beecaa6da0ab7a81f7b19"
     end
     on_intel do
-      url "https://github.com/runxhq/runx/releases/download/cli-v0.11.0/runx-0.11.0-x86_64-apple-darwin.tar.gz"
-      sha256 "dc22d87fea72d73bdd5b6374801534fe51e95c096be4c08326c9f7c50645c57e"
+      url "https://github.com/runxhq/runx/releases/download/cli-v0.11.1/runx-0.11.1-x86_64-apple-darwin.tar.gz"
+      sha256 "ff1baf9e9c814ed6bd65c45b3f432166083a9adf859bbc5be418e495101d60b0"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/runxhq/runx/releases/download/cli-v0.11.0/runx-0.11.0-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "a13381bbfa0ca548084c54d69bc07af2c4553cfc81bd5c97436cfaacd3c76e22"
+      url "https://github.com/runxhq/runx/releases/download/cli-v0.11.1/runx-0.11.1-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "20fce1f9ff34c5988eb3ac86e851714c7978626ad92836c0210108580934b174"
     end
     on_intel do
-      url "https://github.com/runxhq/runx/releases/download/cli-v0.11.0/runx-0.11.0-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "d7b31c56cfa4def4a0f8d181db6fc6ada48d92fd32756ab33db82c965f47afa1"
+      url "https://github.com/runxhq/runx/releases/download/cli-v0.11.1/runx-0.11.1-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "a88afe745953b068314431926e27a0738d057e9a2ccd3975cf2bf916d82d9b70"
     end
   end
 
